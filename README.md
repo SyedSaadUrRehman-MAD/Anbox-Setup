@@ -1,14 +1,14 @@
 # Anbox-Setup
 
-# Anbox Installation
+## Anbox Installation
 
-###Step-by-step instructions for installing Anbox: 
+### Step-by-step instructions for installing Anbox: 
 
-###Installation of VirtualBox:
+### Installation of VirtualBox:
 a. Begin by downloading VirtualBox from https://www.virtualbox.org/wiki/Downloads. 
 
 
-###Creating a New Virtual Machine: 
+### Creating a New Virtual Machine: 
 a. Open VirtualBox.
 b. Click on "New" to create a new virtual machine.
 c. Name your virtual machine (e.g., "Ubuntu").
@@ -18,13 +18,13 @@ f. Create a new virtual hard disk with sufficient space (e.g., 20GB or more).
 g. Click "Create."
 
 
-###Downloading Ubuntu 20.04 Image:
+### Downloading Ubuntu 20.04 Image:
 
 
 a. Download the Ubuntu 20.04 image from https://releases.ubuntu.com/20.04.6/?_ga=2.87788561.862535173.1694009354-534867877.1693694408. 
 
 
-###Configuring Virtual Machine Settings:
+### Configuring Virtual Machine Settings:
 
 
 a. In the VirtualBox Manager, right-click on your newly created virtual machine and select "Settings."
@@ -34,14 +34,14 @@ d. Under "Display," increase the video memory for better performance. e. Under "
 
 
 
-###Installing Ubuntu: 
+### Installing Ubuntu: 
 
 
 a. Start your virtual machine by clicking "Start."
 b. The Ubuntu installer should boot from the ISO file. Follow the on-screen instructions to install Ubuntu. Select "Erase disk and install Ubuntu" or a similar option when prompted. Make sure to remember the username and password you enter during installation.
 
 
-###Kernel Installation: 
+### Kernel Installation: 
 a. Open a terminal. 
 b. Run sudo su. 
 c. Run modprobe binder_linux (it should run with no output). 
@@ -60,12 +60,12 @@ o. dkms install anbox-ashmem/1
 p. Restart the virtual machine. 
 
 
-###Installing Anbox:
+### Installing Anbox:
 a. Open a terminal again. 
 b. Run sudo su. 
 c. snap install --devmode --edge anbox 
 
 
-###Completing the Installation: 
+### Completing the Installation: 
 a. Under applications, click "Anbox Application Manager" to start Anbox.
 
