@@ -9,12 +9,12 @@ a. Begin by downloading VirtualBox from https://www.virtualbox.org/wiki/Download
 
 
 ### Creating a New Virtual Machine: 
-a. Open VirtualBox.
-b. Click on "New" to create a new virtual machine.
-c. Name your virtual machine (e.g., "Ubuntu").
-d. Choose "Linux" as the type and "Ubuntu (64-bit)" as the version.
-e. Allocate memory (RAM) as needed, ensuring it stays within the green zone.
-f. Create a new virtual hard disk with sufficient space (e.g., 20GB or more).
+a. Open VirtualBox.\n
+b. Click on "New" to create a new virtual machine.\n
+c. Name your virtual machine (e.g., "Ubuntu").\n
+d. Choose "Linux" as the type and "Ubuntu (64-bit)" as the version.\n
+e. Allocate memory (RAM) as needed, ensuring it stays within the green zone.\n
+f. Create a new virtual hard disk with sufficient space (e.g., 20GB or more).\n
 g. Click "Create."
 
 
